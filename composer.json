@@ -1,0 +1,14 @@
+{
+  "name": "active-learning/airguard-mqtt-php",
+  "description": "PHP dashboard receiving MQTT sensor data and displaying realtime-like environmental monitoring data.",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "php-mqtt/client": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AirGuard\\": "src/"
+    }
+  }
+}
